@@ -49,5 +49,4 @@ jobs:
 
     - name: Deploy java helm chart to EKS
       run: |
-        helm repo update
         helm install new-java ./java-chart
